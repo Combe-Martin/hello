@@ -12,24 +12,29 @@ git clone https://github.com/Combe-Martin/hello.git
 building
 =====
 
-default:
+* default
 
+```Bash
 mkdir build
 cd build
 cmake ../
 make 
+```
 
-debug version: 
+* debug version: 
 
+```Bash
 mkdir debug
 cd debug
 cmake -DCMAKE_BUILD_TYPE=Debug ../
 make
+```
 
-release version:
+* release version:
 
+```Bash
 mkdir release
 cd release
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make
-
+```
